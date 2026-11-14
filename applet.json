@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-tpm-inspector",
+  "name": "TPM Inspector",
+  "version": "0.0.4",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/tpm-inspector",
+  "order": 20,
+  "entrypoint": "tpm_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only TPM device, exposed PCR snapshot, measured-boot event-log availability and kernel-exposed capability inspector.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
